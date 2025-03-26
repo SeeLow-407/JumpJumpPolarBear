@@ -1,0 +1,473 @@
+/*My messy CSS page*/
+
+/* Changes the background color*/
+
+body {
+    background-color:rgb(107, 185, 253) ;
+}
+
+/* Designs the Paragraphs for each page*/
+
+p {
+    color: aliceblue; 
+    font-size: 30px; 
+    text-align: center; 
+    font-family:'Courier New', Courier, monospace;
+    border-bottom-style: double; 
+    font-style: italic; 
+    padding-bottom: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+/* Design for each case for links */
+
+a {
+    font-size:xx-large;
+}
+
+a:link {
+    color: aliceblue;
+}
+
+a:visited{
+    color: aliceblue;
+}
+
+a:hover {
+    color: rgb(157, 242, 248);
+}
+
+a:active {
+    color: rgb(74, 168, 250);
+}
+
+/* Allows me to give credits on the website*/
+
+footer {
+    text-align: center;
+    padding-bottom: 3px;
+    color: white;
+}
+
+/* Decorates the links to each page */
+
+.home {
+    text-decoration-line: underline;
+}
+
+.aboutus {
+    text-decoration-line: underline;
+}
+
+.help {
+    text-decoration-line: underline;
+}
+
+.download {
+    text-decoration-line: underline;
+}
+
+.title {
+    text-align: center; 
+    font-size: 40px; 
+    color:ghostwhite;
+}
+
+.imgicecap {
+    width: 40%;
+}
+
+.whitetext {
+    font-size: 80px;
+    color: ghostwhite;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+/* Designs the download buttons to match the background and color palette*/
+button {
+    font-size: 100px;
+    background-color:azure;
+    border-style:double;
+    font-family:monospace;
+    border-color:cornflowerblue;
+    color: cornflowerblue;
+}
+
+button.songs {
+    font-size: 50px;
+    background-color:azure;
+    border-style:double;
+    font-family:monospace;
+    border-color:cornflowerblue;
+    color: cornflowerblue;
+}
+
+/* Sets the height for the image */
+
+img.picture {
+    height: 300px;
+}
+
+/* Designs the image of the spacebar */
+
+.spacebar {
+    font-size: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    color: white;
+}
+
+/* centers and sets the size for the arrow */
+
+div.centerarrow {
+    color: aliceblue; 
+    font-size: x-large; 
+    text-align: center;
+}
+
+.center {
+    margin-right: 25%;
+    margin-left: 25%;
+}
+
+ /* Arrow Sizes*/
+
+.ArrowUp {
+    font-size:100px;
+}
+
+.ArrowLeft {
+    font-size:100px; padding-left: 5px;
+}
+
+.ArrowDown {
+    font-size:100px; padding-bottom: 25px;
+}
+
+.ArrowRight {
+    font-size:100px; padding-right: 5px;
+}
+
+.invertbaby {
+    -webkit-animation: scaleX(-1);
+    transform: scaleX(-1);
+    height:250px;
+}
+
+.baby {
+    height:250px;
+}
+
+.invertjumpbear {
+    -webkit-animation: scaleX(-1);
+    transform: scaleX(-1);
+    height:150px;
+}
+
+.jumpbear {
+    height:150px; 
+}
+
+/* Centers the the text in the Grid*/
+
+.centertext {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    width: 70%;
+    margin-left: 25%;
+    margin-right: 25%;
+
+    height: 70%;
+    margin-top: 3%; 
+}
+
+/* grid */
+
+.grid-container-element {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    text-align: center;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+
+    height: 70%;
+    margin-top: 3%;
+    /* border: 1px solid black; */
+}
+
+.grid-child-element {
+    margin: 10px;
+    border: 1px solid white;
+    max-width: 350px;
+    /* border: 1px solid red; */
+}
+
+.tutorial {
+    height: 500px;
+    width: 750px;
+}
+
+/* Phone Compatibility */
+
+@media screen and (max-width: 430px) {
+    body {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color:rgb(107, 185, 253) ;
+        color: white;
+        
+    }
+
+    p {
+        color: aliceblue; 
+        font-size: 18px; 
+        text-align: center; 
+        font-family:'Courier New', Courier, monospace;
+        border-bottom-style: double; 
+        font-style: italic; 
+        padding-bottom: 15px;
+        width: 100%;
+        height: 100%;
+    }
+
+    a {
+        font-size: 17px;
+    }
+
+    img.picture {
+        height: 200px;
+    }
+
+    .invertbaby {
+        -webkit-animation: scaleX(-1);
+        transform: scaleX(-1);
+        height:90px;
+    }
+    
+    .baby {
+        height: 90px;
+    }
+
+    
+.invertjumpbear {
+    -webkit-animation: scaleX(-1);
+    transform: scaleX(-1);
+    height:30px;
+}
+
+.jumpbear {
+    height:30px; 
+}
+
+    .grid-container-element {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        text-align: center;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    
+        height: 70%;
+        margin-top: 3%;
+        /* border: 1px solid black; */
+    }
+    
+    .grid-child-element {
+        margin: 10px;
+        border: 1px solid white;
+        max-width: 350px;
+        /* border: 1px solid red; */
+    }
+
+    .ArrowUp {
+        font-size:20px;
+    }
+
+    .ArrowLeft {
+        font-size:20px; 
+        padding-left: 5px;
+    }
+
+    .ArrowDown {
+        font-size:20px; 
+        padding-bottom: 25px;
+    }
+
+    .ArrowRight {
+        font-size:20px; 
+        padding-right: 5px;
+    }
+
+    .whitetext {
+        font-size: 18px;
+        color: ghostwhite;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .spacebar {
+        font-size: 20px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        color: white;
+    }
+
+    .title {
+        text-align: center; 
+        font-size: 15px; 
+        color:ghostwhite;
+    }
+    
+    button {
+        font-size: 50px;
+        background-color:azure;
+        border-style:double;
+        font-family:monospace;
+        border-color:cornflowerblue;
+        color: cornflowerblue;
+    }
+    
+    button.songs {
+        font-size: 25px;
+        background-color:azure;
+        border-style:double;
+        font-family:monospace;
+        border-color:cornflowerblue;
+        color: cornflowerblue;
+    }
+
+    .imgpolarbearone {
+        height: 25px;
+    }
+
+    .imgpolarbeartwo {
+        height: 30px;
+    }
+
+    .imgpolarbearthree {
+        height: 35px;
+    }
+
+    .imgpolarbearfour {
+        height: 50px;
+    }
+
+    .imgicecap {
+        width: 100%;
+    }
+    
+    .tutorial {
+        height: 250px;
+        width: 250px;
+    }
+}
+
+/*Tablet or iPad Compatibility*/
+
+@media screen and (min-width: 768px ) and (max-width: 1336px) {
+
+    .imgicecap {
+        width: 50%;
+    }
+
+    .imgpolarbearone {
+        height: 25px;
+    }
+
+    .imgpolarbeartwo {
+        height: 30px;
+    }
+
+    .imgpolarbearthree {
+        height: 35px;
+    }
+
+    .imgpolarbearfour {
+        height: 50px;
+    }
+
+    body {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        background-color:rgb(107, 185, 253) ;
+        color: white;
+    }
+
+    p {
+        color: aliceblue; 
+        font-size: 20px; 
+        text-align: center; 
+        font-family:'Courier New', Courier, monospace;
+        border-bottom-style: double; 
+        font-style: italic; 
+        padding-bottom: 15px;
+        width: 100%;
+        height: 100%;
+    }
+
+    a {
+        font-size :24px;
+    }
+
+    .title {
+        text-align: center; 
+        font-size: 25px; 
+        color:ghostwhite;
+    }
+
+    .grid-container-element {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-row-gap: 20px;
+    }
+
+    .ArrowUp {
+        font-size:50px;
+    }
+
+    .ArrowLeft {
+        font-size:50px; 
+        padding-left: 5px;
+    }
+
+    .ArrowDown {
+        font-size:50px; 
+        padding-bottom: 25px;
+    }
+
+    .ArrowRight {
+        font-size:50px; 
+        padding-right: 5px;
+    }
+
+    .whitetext {
+        font-size: 50px;
+        color: ghostwhite;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+    .spacebar {
+        font-size: 50px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 0px;
+        color: white;
+    }
+
+    .tutorial {
+        height: 250px;
+        width: 250px;
+    }
+
+}
